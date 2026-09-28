@@ -1,0 +1,42 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+*.log
+
+# Archivos de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Dependencias
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+build/
+.out/
+.next/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# AWS
+amplify/
+#amplify/.config/
+#amplify/#current-cloud-backend/
+#amplify/backend/amplify-meta.json
+#amplify/backend/awscloudformation/
+#build/
+#dist/
+#node_modules/
+#aws-exports.js
+#awsconfiguration.json
+#amplifyconfiguration.json
